@@ -10,7 +10,7 @@ Desktop: de 992 até 1200px
 Grandes telas: acima de 1200px
 */
 
-/* Versão tablet */
+                /* Versão tablet */ 
 @media screen  and (min-width: 768px) and (max-width: 992px){ 
 
     body {
@@ -19,6 +19,7 @@ Grandes telas: acima de 1200px
 
     section#login {
         width: 80vw;   
+        height: 340px;
     }
 
     section#login > div#imagem {
@@ -43,6 +44,7 @@ Grandes telas: acima de 1200px
 
     section#login {
         width: 900px;
+        height: 360px;
     }
 
     section#login > div#imagem {
